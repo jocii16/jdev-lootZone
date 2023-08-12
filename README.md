@@ -4,5 +4,8 @@
 3. Customize the script in *shared/config.lua*!
 4. Restart your server
 
+# Dependencies
+- ox_lib
+
 # [Support](https://discord.gg/rwwZTqrJ)
 # [More Release](https://discord.gg/rwwZTqrJ)
