@@ -53,9 +53,9 @@ for k, v in ipairs(Config.LootZones) do
         AddTextComponentString(Config.LootZones[k].blipName)
         EndTextCommandSetBlipName(blip1)
 
-        local blip3 = AddBlipForRadius(Config.LootZones[k].zoneCoords, Config.LootZones[k].radius)
-        SetBlipColour(blip3, Config.LootZones[k].blipCircleColor)
-        SetBlipAlpha(blip3, 150)
+        local blip2 = AddBlipForRadius(Config.LootZones[k].zoneCoords, Config.LootZones[k].radius)
+        SetBlipColour(blip2, Config.LootZones[k].blipCircleColor)
+        SetBlipAlpha(blip2, 150)
     end
 
     CreateThread(function()
